@@ -99,9 +99,9 @@
         outline: none;
     }
 
-    &.error {
-        #be1e37
-    }
+    // &.error {
+    //     #be1e37
+    // }
 }
 // .signup__error-icon {
 // }
@@ -245,7 +245,10 @@
     letter-spacing: 1px;
     white-space: nowrap;
     font-size: 1.2rem;
-    // color: #c4b998;
+
+    &.active {
+        color: #c4b998;
+    }
 }
 
 .step-line {

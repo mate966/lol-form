@@ -4,7 +4,7 @@ import riotLogo from "../Images/riotgames-logo-white-s.png";
 import pegiLogo from "../Images/pegi.jpg";
 
 const Footer = () => {
-    const [toggleClass, setToggle] = useState(false);
+    const [toggleClass, setToggle] = useState();
 
     const handleDisplayList = () => {
         setToggle(!toggleClass);
@@ -18,11 +18,7 @@ const Footer = () => {
                         onClick={handleDisplayList}
                         className="legal-component"
                     >
-                        <ul
-                            className={`legal-list ${
-                                toggleClass ? "active" : null
-                            }`}
-                        >
+                        <ul className={`legal-list ${toggleClass && "active"}`}>
                             <li>
                                 <a href="#">Support</a>
                             </li>
@@ -31,9 +27,6 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a href="#">Terms of use</a>
-                            </li>
-                            <li>
-                                <a href="#">Cookie Policy</a>
                             </li>
                             <li>
                                 <a href="#">Cookie preference</a>
@@ -70,22 +63,22 @@ const Footer = () => {
             </div>
             <div className="footer__copyright">
                 <p className="copyright__paragraph">
-                    This site is protected by hCaptcha and its
+                    This site is protected by hCaptcha and its{" "}
                     <a
                         href="https://hcaptcha.com/privacy"
                         target="_blank"
                         rel="noreferrer"
                     >
                         Privacy Notice
-                    </a>
-                    and
+                    </a>{" "}
+                    and{" "}
                     <a
                         href="https://hcaptcha.com/terms"
                         target="_blank"
                         rel="noreferrer"
                     >
                         Terms of Service
-                    </a>
+                    </a>{" "}
                     apply.
                 </p>
                 <p className="copyright__paragraph">

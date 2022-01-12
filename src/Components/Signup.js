@@ -37,7 +37,7 @@ const Main = () => {
                         className="signup__divider-img"
                     />
                 </div>
-                <form className="signup__form">
+                <form className="signup__form" id="email__submit">
                     <div onClick={handleClick} className="signup__input">
                         <label
                             className={!inputClass ? "signup__centered" : null}
@@ -49,6 +49,8 @@ const Main = () => {
                             className="signup__email"
                             value={inputValue}
                             onChange={handleEmailInput}
+                            required
+                            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                         />
                         <div className="signup__error-icon"></div>
                         <div className="signup__error-valid">
@@ -63,13 +65,20 @@ const Main = () => {
                                 <button>Start</button>
                             </Link>
                         ) : (
-                            <button onClick={handleForm}>Start</button>
+                            <button
+                                form="email__submit"
+                                type="submit"
+                                onClick={handleForm}
+                            >
+                                Start
+                            </button>
                         )}
                     </div>
                 </form>
                 <div className="signup__already-registered">
                     already registeder?
                     <a href="https://signup.euw.leagueoflegends.com/en/signup/redownload?page_referrer=index">
+                        {" "}
                         click to download
                     </a>
                 </div>
@@ -92,7 +101,7 @@ const Main = () => {
                 <div className="signup__progress-bar">
                     <div className="steps">
                         <div className="step active">
-                            <div className="step-label">Step 1</div>
+                            <div className="step-label active">Step 1</div>
                         </div>
                         <div className="step-line"></div>
                         <div className="step">

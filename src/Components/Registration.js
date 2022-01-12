@@ -39,7 +39,7 @@ const Registration = () => {
                     </div>
                     <div className="step-line"></div>
                     <div className="step active">
-                        <div className="step-label">Step 3</div>
+                        <div className="step-label active">Step 3</div>
                     </div>
                 </div>
             </div>

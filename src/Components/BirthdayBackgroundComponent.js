@@ -1,5 +1,5 @@
-const BackgroundComponent = () => {
-    return <div className="birthday-background"></div>;
+const BirthdayBackgroundComponent = () => {
+    return <div className="bday-background-component"></div>;
 };
 
-export default BackgroundComponent;
+export default BirthdayBackgroundComponent;

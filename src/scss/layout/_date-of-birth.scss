@@ -1,0 +1,41 @@
+.date-picker {
+    width: 540px;
+    max-width: 100%;
+}
+
+.error-list-item {
+    margin-left: -25px;
+    font-family: Spiegiel, sans-serif;
+    color: #be1e37;
+    list-style-type: none;
+}
+
+.datefield-component {
+    width: 100%;
+    // margin: 20px;
+}
+
+.datefield-select {
+    // display: inline-block;
+    // max-width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #7e633b;
+    background-color: #111;
+    // outline: 0;
+    // font-size: 1.4rem;
+    // color: #c4b998;
+    // cursor: pointer;
+}
+
+.datefield-component select {
+    text-transform: uppercase;
+    color: #c4b998;
+    font-family: "BeaufortLight", serif;
+
+    width: 100%;
+    padding: 9px 35px 9px 15px;
+
+    // color: #937341;
+    border: none;
+    background: transparent;
+}

@@ -49,6 +49,32 @@ body {
   z-index: -1;
 }
 
+.bday-background-component {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.bday-background-component::before {
+  content: "";
+  background: url("../Images/bg-welcome.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  z-index: -1;
+}
+
 .header-component {
   position: relative;
   width: 100%;
@@ -340,12 +366,48 @@ body {
   font-size: 1.2rem;
 }
 
+.step-label.active {
+  color: #c4b998;
+}
+
 .step-line {
   width: 100%;
   max-width: 120px;
   height: 1px;
   margin: 0 12px;
   background: #997338;
+}
+
+.date-picker {
+  width: 540px;
+  max-width: 100%;
+}
+
+.error-list-item {
+  margin-left: -25px;
+  font-family: Spiegiel, sans-serif;
+  color: #be1e37;
+  list-style-type: none;
+}
+
+.datefield-component {
+  width: 100%;
+}
+
+.datefield-select {
+  margin-bottom: 20px;
+  border: 2px solid #7e633b;
+  background-color: #111;
+}
+
+.datefield-component select {
+  text-transform: uppercase;
+  color: #c4b998;
+  font-family: "BeaufortLight", serif;
+  width: 100%;
+  padding: 9px 35px 9px 15px;
+  border: none;
+  background: transparent;
 }
 
 .footer__container {
@@ -446,9 +508,14 @@ body {
   letter-spacing: 1px;
   font-size: 1.3rem;
   font-family: Spiegiel, sans-serif;
+  overflow: auto;
 }
 
 .copyright__paragraph {
-  padding: 14px 0;
+  margin: 14px 0;
+}
+
+.copyright__paragraph a {
+  color: #937341;
 }
 /*# sourceMappingURL=main.css.map */
