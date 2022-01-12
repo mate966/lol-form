@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lol-form/static/css/main.ac290f3d.chunk.css",
-    "main.js": "/lol-form/static/js/main.d55f1402.chunk.js",
-    "main.js.map": "/lol-form/static/js/main.d55f1402.chunk.js.map",
+    "main.css": "/lol-form/static/css/main.3762756c.chunk.css",
+    "main.js": "/lol-form/static/js/main.1a3dec01.chunk.js",
+    "main.js.map": "/lol-form/static/js/main.1a3dec01.chunk.js.map",
     "runtime-main.js": "/lol-form/static/js/runtime-main.e6aecc1b.js",
     "runtime-main.js.map": "/lol-form/static/js/runtime-main.e6aecc1b.js.map",
-    "static/js/2.c64ba99c.chunk.js": "/lol-form/static/js/2.c64ba99c.chunk.js",
-    "static/js/2.c64ba99c.chunk.js.map": "/lol-form/static/js/2.c64ba99c.chunk.js.map",
+    "static/js/2.a10da522.chunk.js": "/lol-form/static/js/2.a10da522.chunk.js",
+    "static/js/2.a10da522.chunk.js.map": "/lol-form/static/js/2.a10da522.chunk.js.map",
     "index.html": "/lol-form/index.html",
-    "static/css/main.ac290f3d.chunk.css.map": "/lol-form/static/css/main.ac290f3d.chunk.css.map",
-    "static/js/2.c64ba99c.chunk.js.LICENSE.txt": "/lol-form/static/js/2.c64ba99c.chunk.js.LICENSE.txt",
+    "static/css/main.3762756c.chunk.css.map": "/lol-form/static/css/main.3762756c.chunk.css.map",
+    "static/js/2.a10da522.chunk.js.LICENSE.txt": "/lol-form/static/js/2.a10da522.chunk.js.LICENSE.txt",
     "static/media/main.css": "/lol-form/static/media/bg-welcome.2ddcb336.jpg",
     "static/media/lol-logo.994ad5a4.png": "/lol-form/static/media/lol-logo.994ad5a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e6aecc1b.js",
-    "static/js/2.c64ba99c.chunk.js",
-    "static/css/main.ac290f3d.chunk.css",
-    "static/js/main.d55f1402.chunk.js"
+    "static/js/2.a10da522.chunk.js",
+    "static/css/main.3762756c.chunk.css",
+    "static/js/main.1a3dec01.chunk.js"
   ]
 }
